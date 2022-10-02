@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,900');
+@import 'abstracts/all';
+@import 'components/all';
+@import 'components/common/all';
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+}
+.GithubUserView {
+    &__repoListWrapper {
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        height: inherit;
+        overflow-y: scroll;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+        justify-content: space-between;
+    }
+}

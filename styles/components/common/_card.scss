@@ -1,0 +1,17 @@
+.Card {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    &__descWrapper {
+        & > div > span {
+            font-weight:700;
+        }
+    }
+}
