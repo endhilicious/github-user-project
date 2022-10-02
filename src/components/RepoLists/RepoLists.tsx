@@ -65,7 +65,7 @@ const RepoLists = () => {
                             {Object.keys(user).length > 0 ? (
                                 <div className='RepoLists__noRepoFound'>No Repo Found</div>
                             ) : (
-                                <div className='RepoLists__letsSearchUser'>Let's Search User</div>
+                                <div className='RepoLists__letsSearchUser'>Lets Search User</div>
                             )}
                         </div>
                     )
